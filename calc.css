@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+body{
+    font-family: sans-serif;
+    background-color: hsl(55, 33%, 62%);
+}
+
+.main{
+    height: 450px;
+    width: 280px;
+    background-color: #301064;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+input{
+    height: 40px;
+    width: 240px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+button{
+    height: 50px;
+    width: 60px;
+    border-radius: 10px;
+    
+    
+}
+button:hover{
+
+    background-color: red;
+    transition:0.2s ease-out;
+}
+.q1{
+    width: 120px;
+}
